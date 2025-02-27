@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IO.Swagger.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d158e694ef1d323dc0d0998d2263d31c2cdfd23")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba65b016b6d6562dba7bff449751d0bd9b7d7f4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("IO.Swagger.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IO.Swagger.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using InterfazGraficaV1.utils;
+
 namespace InterfazGraficaV1
 {
     public partial class RegistrarButton: Form
@@ -29,16 +31,8 @@ namespace InterfazGraficaV1
                 // Paso 1: Recoger los textos de los TextBox (en el orden indicado)
                 string descripcion = descripcionTextBox.Text.Trim();
                 string nivelText = nivelTextBox.Text.Trim();
-                string wsKeyFilePath = System.IO.Path.Combine(Application.StartupPath, "resources", "wskey.txt");
 
-                if (!System.IO.File.Exists(wsKeyFilePath))
-                {
-                    MessageBox.Show("El archivo wskey.txt no se encontró en la carpeta resources.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
-
-                string WSKey = System.IO.File.ReadAllText(wsKeyFilePath).Trim();
-
+                string WSKey = Utils.obtenerWSKey();
 
                 // El campo nivel es obligatorio, se debe poder convertir a entero.
                 if (!int.TryParse(nivelText, out int nivelValue))
