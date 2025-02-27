@@ -40,9 +40,5 @@ OpenAPI spec version: 1.0.0
     <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.10.0" />
   </ItemGroup>
-
-  <ItemGroup>
-      <ProjectReference Include="..\IO.Swagger\IO.Swagger.csproj" />
-  </ItemGroup>
 </Project>
 

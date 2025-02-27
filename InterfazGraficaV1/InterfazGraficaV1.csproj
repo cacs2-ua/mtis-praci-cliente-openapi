@@ -80,8 +80,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\IO.Swagger\IO.Swagger.csproj">
-      <Project>{a4df1923-05ca-4755-adb7-e721df711f33}</Project>
+    <ProjectReference Include="..\..\..\ALL-clientes-open-api\v2-cliente-openapi\src\IO.Swagger\IO.Swagger.csproj">
+      <Project>{7ac3accd-44b0-8f60-1968-06ca3a27ff99}</Project>
       <Name>IO.Swagger</Name>
     </ProjectReference>
   </ItemGroup>

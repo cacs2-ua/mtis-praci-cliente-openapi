@@ -30,6 +30,7 @@ namespace InterfazGraficaV1
                 string descripcion = descripcionTextBox.Text.Trim();
                 string idText = idTextBox.Text.Trim();
                 string nivelText = nivelTextBox.Text.Trim();
+                string WSKey = "soap-mtis-prac1";
 
                 // Paso 2: Validar y convertir los valores numéricos
                 // El id es opcional, por lo que si está vacío se dejará como null.
@@ -65,7 +66,7 @@ namespace InterfazGraficaV1
                 IO.Swagger.Api.NivelesApi nivelesApi = new IO.Swagger.Api.NivelesApi();
 
                 // Paso 5: Llamar al método asíncrono para crear el nuevo nivel en la BD.
-                IO.Swagger.Model.Nivel nivelRegistrado = await nivelesApi.NuevoNivelAsync(nuevoNivel);
+                IO.Swagger.Model.Nivel nivelRegistrado = await nivelesApi.NuevoNivelAsync(nuevoNivel, WSKey); 
 
                 // Paso 6: Mostrar un mensaje de éxito con el ID del nivel registrado.
                 MessageBox.Show("Nivel registrado exitosamente. ID: " + nivelRegistrado.Id,
