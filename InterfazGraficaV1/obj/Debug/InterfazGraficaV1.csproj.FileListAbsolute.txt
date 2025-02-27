@@ -24,3 +24,4 @@ C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practica\mine-spam\pruebas-clien
 C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practica\mine-spam\pruebas-cliente-net\pruebas-cliente-openapi\csharp-client-generated (1)\InterfazGraficaV1\obj\Debug\Interfaz.DA96E832.Up2Date
 C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practica\mine-spam\pruebas-cliente-net\pruebas-cliente-openapi\csharp-client-generated (1)\InterfazGraficaV1\obj\Debug\InterfazGraficaV1.exe
 C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practica\mine-spam\pruebas-cliente-net\pruebas-cliente-openapi\csharp-client-generated (1)\InterfazGraficaV1\obj\Debug\InterfazGraficaV1.pdb
+C:\Users\Cris-SX\Desktop\UA\Segundo Cuatri\MTIS\Practica\mine-spam\pruebas-cliente-net\pruebas-cliente-openapi\csharp-client-generated (1)\InterfazGraficaV1\bin\Debug\resources\wskey.txt

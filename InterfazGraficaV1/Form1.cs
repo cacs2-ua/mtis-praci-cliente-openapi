@@ -30,7 +30,15 @@ namespace InterfazGraficaV1
                 string descripcion = descripcionTextBox.Text.Trim();
                 string idText = idTextBox.Text.Trim();
                 string nivelText = nivelTextBox.Text.Trim();
-                string WSKey = "soap-mtis-prac1";
+                string wsKeyFilePath = System.IO.Path.Combine(Application.StartupPath, "resources", "wskey.txt");
+
+                if (!System.IO.File.Exists(wsKeyFilePath))
+                {
+                    MessageBox.Show("El archivo wskey.txt no se encontró en la carpeta resources.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                string WSKey = System.IO.File.ReadAllText(wsKeyFilePath).Trim();
 
                 // Paso 2: Validar y convertir los valores numéricos
                 // El id es opcional, por lo que si está vacío se dejará como null.

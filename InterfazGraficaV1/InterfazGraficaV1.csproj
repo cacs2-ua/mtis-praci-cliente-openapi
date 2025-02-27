@@ -85,5 +85,10 @@
       <Name>IO.Swagger</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="resources\wskey.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
