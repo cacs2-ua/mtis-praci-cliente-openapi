@@ -60,6 +60,7 @@
             this.nivelTextBox.Name = "nivelTextBox";
             this.nivelTextBox.Size = new System.Drawing.Size(267, 22);
             this.nivelTextBox.TabIndex = 3;
+            this.nivelTextBox.TextChanged += new System.EventHandler(this.nivelTextBox_TextChanged);
             // 
             // label2
             // 
@@ -78,6 +79,7 @@
             this.label4.Size = new System.Drawing.Size(35, 16);
             this.label4.TabIndex = 6;
             this.label4.Text = "nivel";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // button1
             // 
