@@ -81,15 +81,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\ALL-clientes-open-api\v2-cliente-openapi\src\IO.Swagger\IO.Swagger.csproj">
-      <Project>{7ac3accd-44b0-8f60-1968-06ca3a27ff99}</Project>
-      <Name>IO.Swagger</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="resources\wskey.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ALL-clientes-open-api\v3-cliente-openapi\csharp-client-generated %281%29\src\IO.Swagger\IO.Swagger.csproj">
+      <Project>{26969a8a-5718-e446-a6f1-10348f028706}</Project>
+      <Name>IO.Swagger</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
