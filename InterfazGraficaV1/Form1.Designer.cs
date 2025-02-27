@@ -30,10 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.descripcionTextBox = new System.Windows.Forms.TextBox();
-            this.idTextBox = new System.Windows.Forms.TextBox();
             this.nivelTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -56,16 +54,9 @@
             this.descripcionTextBox.Size = new System.Drawing.Size(267, 22);
             this.descripcionTextBox.TabIndex = 1;
             // 
-            // idTextBox
-            // 
-            this.idTextBox.Location = new System.Drawing.Point(430, 197);
-            this.idTextBox.Name = "idTextBox";
-            this.idTextBox.Size = new System.Drawing.Size(267, 22);
-            this.idTextBox.TabIndex = 2;
-            // 
             // nivelTextBox
             // 
-            this.nivelTextBox.Location = new System.Drawing.Point(430, 252);
+            this.nivelTextBox.Location = new System.Drawing.Point(430, 185);
             this.nivelTextBox.Name = "nivelTextBox";
             this.nivelTextBox.Size = new System.Drawing.Size(267, 22);
             this.nivelTextBox.TabIndex = 3;
@@ -79,20 +70,10 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "descripcion";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(392, 203);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(18, 16);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "id";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(375, 255);
+            this.label4.Location = new System.Drawing.Point(375, 188);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 16);
             this.label4.TabIndex = 6;
@@ -101,7 +82,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button1.Location = new System.Drawing.Point(622, 303);
+            this.button1.Location = new System.Drawing.Point(622, 236);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 27);
             this.button1.TabIndex = 7;
@@ -116,10 +97,8 @@
             this.ClientSize = new System.Drawing.Size(1145, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.nivelTextBox);
-            this.Controls.Add(this.idTextBox);
             this.Controls.Add(this.descripcionTextBox);
             this.Controls.Add(this.label1);
             this.Name = "RegistrarButton";
@@ -133,10 +112,8 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox descripcionTextBox;
-        private System.Windows.Forms.TextBox idTextBox;
         private System.Windows.Forms.TextBox nivelTextBox;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button1;
     }
